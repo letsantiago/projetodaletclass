@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title>ENQUETE-PHP</title>
+<meta charset="UTF-8">
+<style type="text/css">
+	div{
+		border-radius: 5px;
+		width: 400px;
+		height: 330px;
+		background-color: #ADD8E6;
+	}
+	label{
+		font-style: Arial, Verdana.
+		font-size: 45px;
+	}
+</style>
+</head>
+<body>
+<center>
+<div>
+<form name="votacao" action="form.php" method="POST">
+	<label for="pergunta">Qual curso técnico você se interessa?</label>
+	<br>
+	<br>
+	<input type="radio" name="voto" value="T.A"/>1) Técnico em Administração
+	<br>
+	<br>
+	<input type="radio" name="voto" value="T.L"/>2) Técnico em Logística
+	<br>
+	<br>
+	<input type="radio" name="voto" value="T.I"/>3) Técnico em Informática
+	<br>
+	<br>
+	<input type="radio" name="voto" value="T.E"/>4) Técnico em Enfermagem
+	<br>
+	<br>
+	<input type="radio" name="voto" value="T.MA"/>5) Técnico em Meio Ambiente
+	<br>
+	<br>
+	<input type="radio" name="voto" value="T.DI"/>6) Técnico em Design de Interiores
+	<br>
+	<br>
+	<input class="enviar" type="submit" name="enviar" value="Enviar"/>	
+</form>
+</div>
+</center>
+</body>
+</html>
+

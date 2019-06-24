@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">	
+	<title>ÁREA DO CLIENTE</title>
+</head>
+<style type="text/css">
+	#logo{
+		position: fixed;
+		top: 1px;
+		left: 11px;
+		width: 225px;
+		height: 260px;
+	}
+	#home{
+		position: fixed;
+		top: 1px;
+		left: 20px;
+		width: 210px;
+		height: 260;
+	}
+	.b{
+	position: fixed;
+	top: 0px;
+	left: 230px;
+	width: 1200px;
+	height: 263px;
+	background: #FFA07A; 
+	}
+	.h1{
+		font-family: Trebuchet, sans-serif;
+		font-weight: bold; 
+	}
+	.h2{
+		font-family: Trebuchet, sans-serif;
+		font-weight: bold;
+	}
+	.h3{
+		font-family: Trebuchet, sans-serif;
+		font-weight: bold; 
+		position: absolute;
+		top: 190px;
+		right: 20px;
+	}
+	fieldset{
+		position: fixed;
+		width: 300px;
+		height: 560px;
+		top: 265px;
+		left: 15px;
+		border-width: 8px; 
+	}
+	.produto1{
+		font-family: Trebuchet, sans-serif;
+		font-weight: bold; 
+	}
+	#lace1{
+		position: relative;
+		top: 0px;
+		left: 60px;
+		width: 160px; 
+		height: 160px;
+	}
+	.descricao{
+		font-family: Trebuchet, sans-serif;
+		font-weight: bold; 
+		font-size: 15px;
+	}
+	.d{
+		font-size: 10px;
+	}
+	.descricao2{
+		font-family: Trebuchet, sans-serif;
+		font-weight: bold; 
+		font-size: 10px;
+	}
+	.cor{
+		font-family: Trebuchet, sans-serif;
+		font-weight: bold; 
+		font-size: 15px;
+	}
+	.c1{
+		font-size: 10px;
+	}
+	.tamanho{
+		font-family: Trebuchet, sans-serif;
+		font-weight: bold; 
+		font-size: 15px;
+	}
+	.t1{
+		font-size: 10px;
+	}
+	.preco{
+		font-family: Trebuchet, sans-serif;
+		font-weight: bold; 
+		font-size: 15px;
+	}
+	.p1{
+		font-size: 10px;
+	}
+	.fieldset2{
+		position: absolute;
+		top: 265px;
+		left: 455px;
+	}
+	.dados{
+		font-family: Trebuchet, sans-serif;
+		font-weight: bold; 
+	}
+	.fieldset3{
+		position: absolute;
+		width: 100px;
+		top: 265px;
+		left: 900px;
+	}
+	.cartao{
+		font-family: Trebuchet, sans-serif;
+		font-weight: bold;	
+	}
+	.cp{
+		background-color: yellow;
+		border-radius: 5px;
+	}
+	.carrinho{
+		width: 20px;
+		height: 20px;
+	}
+
+
+</style>
+<body>
+	<center>
+	<div class="a">
+		<img src="https://scontent.cdninstagram.com/vp/8fc9664e5bc32b4d193c7db4d40218c5/5D9C6C9B/t51.2885-15/e35/p320x320/61872564_745948395807913_5994507307756749326_n.jpg?_nc_ht=scontent.cdninstagram.com" id="home">
+		<img src="https://cdn.shopify.com/s/files/1/2068/6671/t/22/assets/logo.png?566" id="logo">
+		<div class="b">
+		<h1 class="h1"> Ótima escolha!</h1>
+		<h2 class="h2">FRETE GRÁTIS PARA TODO O BRASIL A PARTIR DE 50$! | USE O CÓDIGO: BONITASQUAD</h2>
+		<h3 class="h3">Você escolheu: "Lace Ombré Green Mint"</h3>
+		</div>
+	 </div>
+	</center>
+	<br>
+	<fieldset>
+		<div class="produto">
+			<center>
+				<h2 class="produto1">
+					PRODUTO:
+				</h2>
+			</center>
+			<img src="https://www.dhresource.com/0x0s/f2-albu-g6-M00-92-95-rBVaSFrO_xqAEBAKAAVOChKw4s8442.jpg/moda-ombre-menta-verde-peruca-longa-de-seda.jpg" id="lace1">
+			<h4 class="descricao">DESCRIÇÃO:</h4>
+			<p id="d">Lace Ombré Green Mint</p>
+			<h4 class="descricao2">QUANTIDADE: 1</h4>
+			<h4 class="cor">COR:</h4>
+			<p id="c1">Verde Menta</p>
+			<h4 class="tamanho">TAMANHO:</h4>
+			<p id="t1">75 CM</p>
+			<h4 class="preco">PREÇO:</h4>
+			<p id="p1">R$ 360,99</p>
+		</div>
+	</fieldset>
+	<br>
+	<br>
+	<fieldset class="fieldset2">
+	<div>
+		<h2 class="dados">FINALIZAR COMPRA</h2>
+		<form action="confirm.php" method="POST">
+			<p class="name">Nome completo:</p>
+			<input type="text" name="nome" class="1" size="40">
+			<p class="email">E-Mail:</p>
+			<input type="text" name="email" class="email1" size="40">
+			<p class="cpf">CPF</p>
+			<input type="text" name="cpf" class="cpf1" size="40">
+			<p class="codigo">Código: </p>
+			<input type="text" name="codigo" class="cd" size="40" placeholder="Ex: BONITASQUAD" required>
+			</div>
+			</fieldset>
+			<br>
+			<fieldset class="fieldset3">
+			<div>
+			<h2 class="cartao">CARTÃO DE CRÉDITO:</h2>
+
+			<p class="cvv">NÚMERO - CVV:</p>
+			<input type="text" name="numero" class="numero" size="40">
+			<br>
+			<br>
+			<select class="bandeira" name="bandeira" style="width: 313px">
+				<option>Visa</option>
+				<option>Mastercard</option>
+				<option>Elo</option>
+			</select>
+			<p class="validade"> VALIDADE: </p>
+			<input type="date" class="data" name="data" size="40">
+			<input type="submit" name="pedido" value="Confirmar" class="cp">
+			<img src="https://image.flaticon.com/icons/png/512/34/34627.png" class="carrinho">
+		</form>
+	</div>
+	</fieldset>
+</body>
+</html>
